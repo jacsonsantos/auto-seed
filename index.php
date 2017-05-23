@@ -54,10 +54,9 @@ function insert(array $data = array(),$table, $pdo)
     }
 }
 $i = 1;
-
+while ( $i < $_GET['n']) {
     foreach ($mapBase as $table => $val) {
-        while ( $i < $_GET['n']) {
-            foreach ($mapBase[$table] as $column) {
+        foreach ($mapBase[$table] as $column) {
             $nameColumn = $column['column'];
             $type = strtolower($column['type']);
             if ($type == 'int') {
@@ -112,8 +111,8 @@ $i = 1;
             $value = '';
             sleep(1);
         }
-            insert($data, $table, $pdo);
-            $data = [];
-            $i++;
+        insert($data, $table, $pdo);
+        $data = [];
         }
+    $i++;
     }
