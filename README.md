@@ -1,2 +1,2 @@
-# auto-seed
+# Auto Seed
 Popula a base de dados automaticamente
