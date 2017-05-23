@@ -56,7 +56,7 @@ function insert(array $data = array(),$table, $pdo)
 $i = 1;
 
     foreach ($mapBase as $table => $val) {
-        while ( $i < 3) {
+        while ( $i < $_GET['n']) {
             foreach ($mapBase[$table] as $column) {
             $nameColumn = $column['column'];
             $type = strtolower($column['type']);
