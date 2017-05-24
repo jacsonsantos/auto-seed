@@ -31,7 +31,7 @@ class Seed
         $this->faker = $faker;
     }
 
-    public function insert(array $data = array())
+    public function insert(array $data = array(), $table)
     {
         foreach($data as $key => $value) {
             $fields[] = $key;
@@ -39,8 +39,8 @@ class Seed
         }
         $fields = implode(', ', $fields);
         $bind   = implode(', ', $bind);
-        $sql = "INSERT INTO " . $this->table . "(" . $fields . ")VALUES(" . $bind . ")";
-
+        $sql = "INSERT INTO " . $table . "(" . $fields . ")VALUES(" . $bind . ")";
+        
         try{
             $this->connection->beginTransaction();
 
@@ -141,7 +141,7 @@ class Seed
                 $this->data[$nameColumn] = $value;
                 $value = '';
             }
-            $this->insert($this->data);
+            $this->insert($this->data, $table);
             $this->data = [];
         }
     }

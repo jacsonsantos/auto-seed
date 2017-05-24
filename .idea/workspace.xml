@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10b1f96a-0ee7-4e7d-a6ef-077e58d9c30a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Auto/Seed.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/entity/biblioteca.php" afterPath="$PROJECT_DIR$/src/Lib/LibTrait.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.json" afterPath="$PROJECT_DIR$/config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Auto/Seed.php" afterPath="$PROJECT_DIR$/src/Auto/Seed.php" />
     </list>
     <ignored path="auto_seeds.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibTrait.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LibTrait.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lib/LibTrait.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
@@ -48,18 +43,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Seed.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Seed.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Auto/Seed.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="152" column="1" lean-forward="true" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
+            <state relative-caret-position="384">
+              <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
                 <element signature="e#112#132#0#PHP" expanded="true" />
-                <element signature="e#507#1460#0#PHP" expanded="false" />
-                <element signature="e#1466#1587#0#PHP" expanded="false" />
-                <element signature="e#5033#5150#0#PHP" expanded="false" />
-                <marker date="1495598089968" expanded="true" signature="776:846" ph="INSERT INTO ${$table}... " />
+                <element signature="e#1476#1597#0#PHP" expanded="false" />
+                <element signature="e#5051#5168#0#PHP" expanded="false" />
+                <marker date="1495599653921" expanded="true" signature="784:848" ph="INSERT INTO ${$table}... " />
               </folding>
             </state>
           </provider>
@@ -298,12 +292,12 @@
       <option name="presentableId" value="Default" />
       <updated>1495562287772</updated>
       <workItem from="1495562289179" duration="19060000" />
-      <workItem from="1495592586511" duration="5635000" />
+      <workItem from="1495592586511" duration="6360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24695000" />
+    <option name="totallyTimeSpent" value="25420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -394,26 +388,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Auto/Seed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="152" column="1" lean-forward="true" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-            <element signature="e#112#132#0#PHP" expanded="true" />
-            <element signature="e#507#1460#0#PHP" expanded="false" />
-            <element signature="e#1466#1587#0#PHP" expanded="false" />
-            <element signature="e#5033#5150#0#PHP" expanded="false" />
-            <marker date="1495598089968" expanded="true" signature="776:846" ph="INSERT INTO ${$table}... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lib/LibTrait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="102" column="16" lean-forward="false" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Auto/Seed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+            <element signature="e#112#132#0#PHP" expanded="true" />
+            <element signature="e#1476#1597#0#PHP" expanded="false" />
+            <element signature="e#5051#5168#0#PHP" expanded="false" />
+            <marker date="1495599653921" expanded="true" signature="784:848" ph="INSERT INTO ${$table}... " />
+          </folding>
         </state>
       </provider>
     </entry>
